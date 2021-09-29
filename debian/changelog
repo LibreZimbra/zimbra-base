@@ -1,0 +1,18 @@
+zimbra-base (1.0.2-1zimbra8.7b1.18.04) unstable; urgency=low
+
+  * Fix dependencies for useradd/usermod/adduser
+
+ -- Zimbra Packaging Services <packaging-devel@zimbra.com>  Sat, 9 Apr 2016 00:00:00 +0000
+
+zimbra-base (1.0.1-1zimbra8.7b1.18.04) unstable; urgency=low
+
+  * Create zimbra user and group
+  * Add dependencies for useradd/usermod/adduser
+
+ -- Zimbra Packaging Services <packaging-devel@zimbra.com>  Tue, 15 Dec 2015 00:00:00 +0000
+
+zimbra-base (1.0.0-1zimbra8.7b1.18.04) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Zimbra Packaging Services <packaging-devel@zimbra.com>  Wed, 9 Sep 2015 00:00:00 +0000
