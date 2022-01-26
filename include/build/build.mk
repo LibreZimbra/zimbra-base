@@ -13,7 +13,10 @@ INSTALL_DIR_WA_SERVICE        = $(INSTALL_DIR)/jetty_base/webapps/service
 INSTALL_DIR_WA_SERVICE_WEBINF = $(INSTALL_DIR_WA_SERVICE)/WEB-INF
 INSTALL_DIR_LIB_JARS          = $(INSTALL_DIR)/lib/jars
 
-include version.mk
+ifdef ZIMBRA_VERSION_MAJOR
+else
+include $(ZIMBRA_PREFIX)/include/build/version.mk
+endif
 
 ANT_ARG_BUILDINFO = -Dzimbra.buildinfo.versionmajor=$(ZIMBRA_VERSION_MAJOR) \
                     -Dzimbra.buildinfo.versionminor=$(ZIMBRA_VERSION_MINOR) \
