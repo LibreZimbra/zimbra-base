@@ -11,3 +11,8 @@ Depends: passwd, adduser
 Description: Zimbra Base
  Zimbra Base is used as a simple method to allow removing
  all the zimbra specific third party packages.
+
+Package: zimbra-base-dev
+Architecture: all
+Description: Zimbra Base
+ Zimbra Base build utils
